@@ -845,6 +845,10 @@ background-color: #1B1D28;
   font-size: 0.9rem;
 }
 
+.curve-border{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
 @media only screen and (max-device-width: 480px){
   .course-snapshot{
     width: 90%;
@@ -933,7 +937,7 @@ background-color: #1B1D28;
     font-size: 1.3rem;
   }
   #introduction{
-    padding: 3% 0 18%;
+    padding: 3% 0 22%;
   }
   .support-subheader{
     font-size: 1.7rem;
@@ -985,86 +989,6 @@ background-color: #1B1D28;
   }
 }
 
-@media only screen and (max-device-width: 480px){
-  .container-carousel{
-    padding: 40px;
-    padding-bottom: 127px;
-  }
-}
-
-.card-size{
-  height: 250px;
-  width: 500px;
-}
-
-.card-border{
-  border-radius: 0 0 1rem 1rem;
-}
-
-.mbottom{
-  margin-bottom: 50px;
-}
-
-/* Pricing Section */
-
-#pricing {
-  padding: 100px;
-}
-
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-column {
-  padding: 0% 2%;
-}
-
-.pd{
-  padding-top: 0%;
-}
-/* --------------------------------------- */
-
-.fsize{
-  font-size: 20px;
-  margin-top: 13px;
-  font-weight: 500;
-}
-
-.mtop{
-  margin-top: 0.8rem;
-}
-
-.padding-2{
-  padding-left: 125px;
-  padding-right: 30px;
-}
-
-.padding-3{
-  padding-left: 30px;
-  padding-right: 125px;
-}
-
-.padding-20{
-  padding-left: 101px;
-  padding-right: 2px;
-}
-
-.padding-lr{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-
-
-.padding-30{
-  padding-right: 94px;
-  padding-left: 3px;
-}
-
-.psize{
-  font-size: 0.9rem;
-}
 
 @media only screen and (max-width: 1155px){
   .course-snapshot{
@@ -1206,6 +1130,3 @@ background-color: #1B1D28;
   }
 }
 
-.curve-border{
-  border-radius: 1rem 1rem 1rem 1rem;
-}
