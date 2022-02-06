@@ -896,6 +896,12 @@ background-color: #1B1D28;
   .syllabus-image{
     padding-left: 12%;
   }
+  .hero-heading{
+    font-size: 3.5rem;
+  }
+  .heading-subtext{
+    font-size: 1.5rem;
+  }
 }
 
 .curve-border{
