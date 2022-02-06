@@ -10,12 +10,12 @@ body{
 {
   background-color: #39C3EA;
   color: #FFF;
-  padding: 3% 0 7%;
+  padding: 3% 0 11%;
 }
 
 #chapter1
 {
-  padding: 3% 0 15%;;
+  padding: 6% 0 17%;;
   
 }
 
@@ -34,7 +34,7 @@ body{
 
 #bonus{
   background-color: #8F6EB0;
-  padding: 3% 0 7%;
+  padding: 3% 0 14%;
   color: #FFF
 }
 
@@ -123,6 +123,8 @@ p{
   border-radius: 24px;
   padding-left: 4%;
   padding-right: 4%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
   border-color:#FFDCF7;
 }
 
@@ -407,7 +409,7 @@ p{
   text-align: center;
   justify-content: center;
   align-items: center;
-  border: solid;
+  /* border: solid; */
   border-width: thin;
 }
 
@@ -444,11 +446,18 @@ p{
 
 .bio-image{
   width: 100%;
-  border-radius: 18px 0 0 18px;
+  border-radius: 23px 0 0 23px;
+  position: relative;
+  right: 6px;
 }
 
 .bio-copy{
-  width: 80%
+  width: 80%;
+  margin-left: 20px;
+}
+
+.bio-lmar{
+  margin-left: 20px;
 }
 
 .bio-subheader{
@@ -707,7 +716,7 @@ background-color: #1B1D28;
 }
 
 .rmar{
-  margin-left: -34px;
+  margin-left: -42px;
 }
 
 .lmarnav{
