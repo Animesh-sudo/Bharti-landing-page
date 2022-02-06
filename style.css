@@ -64,7 +64,7 @@ h4{
 
 p{
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .hero-body{
@@ -80,7 +80,7 @@ p{
 }
 
 .overline{
-  font-weight: 300;
+  font-weight: 500;
   margin: auto;
   margin-bottom: 2.5%;
   letter-spacing: 1.2px;
@@ -95,7 +95,7 @@ p{
 }
 
 .heading-subtext{
-  font-weight: 300;
+  font-weight: 550;
   font-size: 1.1rem;
   width: 70%;
   margin: auto;
@@ -113,12 +113,13 @@ p{
 
 .header-btn {
   background-color: #FFDCF7;
-  color: #000000;
+  color: #000000ba;
   margin: auto;
   margin-bottom: 1rem;
   border-radius: 24px;
   padding-left: 4%;
   padding-right: 4%;
+  border-color: #fff;
 }
 
 .course-snapshot{
@@ -126,8 +127,8 @@ p{
   background-color: #FFFFFF;
   border-radius: 26px;
   color: #000000;
-  padding-top: 2.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1.4rem;
+  padding-bottom: 0.5rem;
   font-size: 0.9rem;
   margin: auto;
   justify-content: space-between;
@@ -782,4 +783,8 @@ background-color: #1B1D28;
   .syllabus-image{
     padding-left: 12%;
   }
+}
+
+.curve-border{
+  border-radius: 1rem 1rem 1rem 1rem;
 }
