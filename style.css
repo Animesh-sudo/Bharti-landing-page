@@ -15,7 +15,7 @@ body{
 
 #chapter1
 {
-  padding: 3% 0 7%;;
+  padding: 3% 0 10%;;
   
 }
 
@@ -63,7 +63,7 @@ h4{
 }
 
 p{
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 
@@ -95,7 +95,7 @@ p{
 }
 
 .heading-subtext{
-  font-weight: 550;
+  font-weight: 400;
   font-size: 1.1rem;
   width: 70%;
   margin: auto;
@@ -119,11 +119,11 @@ p{
   border-radius: 24px;
   padding-left: 4%;
   padding-right: 4%;
-  border-color: #fff;
+  border-color:#FFDCF7;
 }
 
 .course-snapshot{
-  width: 75%;
+  width: 82%;
   background-color: #FFFFFF;
   border-radius: 26px;
   color: #000000;
@@ -214,7 +214,7 @@ p{
 }
 
 .support-subheader{
-  font-weight: 200;
+  font-weight: 500;
   padding-bottom: 0.5rem;
   font-size: 0.9rem;
 
@@ -222,7 +222,7 @@ p{
 
 .support-para{
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 400;
   width:70%;
   margin:auto;
   margin-top: 1.5rem;
@@ -252,7 +252,7 @@ p{
 
 .toolkit-section{
   width: 70%;
-  margin-top: 10rem;
+  margin-top: 6rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -273,7 +273,7 @@ p{
 .toolkit-text{
   padding-top: 0.5rem;
   text-align: left;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1rem;
 
 }
@@ -743,6 +743,12 @@ background-color: #1B1D28;
   padding-top: 0%;
 }
 /* --------------------------------------- */
+
+.fsize{
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 500;
+}
 
 @media only screen and (max-device-width: 480px){
   .course-snapshot{
