@@ -88,10 +88,14 @@ p{
 
 .hero-heading{
   padding-bottom: 1rem;
-  font-size: 3rem;;
+  font-size: 2.7rem;;
   font-weight: 500;
   letter-spacing: 1px;
 
+}
+
+.marbottom{
+  margin-bottom: 2.4rem;
 }
 
 .heading-subtext{
@@ -127,8 +131,8 @@ p{
   background-color: #FFFFFF;
   border-radius: 26px;
   color: #000000;
-  padding-top: 1.4rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 0.4rem;
   font-size: 0.9rem;
   margin: auto;
   justify-content: space-between;
@@ -137,6 +141,7 @@ p{
 
 .snapshot-para{
   font-weight: 400;
+  margin-bottom: 0.7rem;
 }
 
 
@@ -281,7 +286,7 @@ p{
   padding-top: 0.5rem;
   text-align: left;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 20px;
 
 }
 
@@ -292,6 +297,10 @@ p{
 
 .fs1rem{
   font-size: 1rem;
+}
+.course-text{
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /*testimonial-section*/
@@ -344,6 +353,8 @@ p{
 .syllabus-subtext{
   margin:auto;
   margin-bottom: 3rem;
+  font-size: 1rem;
+  font-weight: 400;
   width: 60%;
 
 }
@@ -643,7 +654,7 @@ background-color: #1B1D28;
 .calender-size{
   margin-left: 40px;
   margin-top: 32px;
-  height: 100px;
+  height: 90px;
   width: auto;
 }
 
@@ -654,7 +665,7 @@ background-color: #1B1D28;
 .calender-size2{
   margin-left: 42px;
   margin-top: 33px;
-  height: 100px;
+  height: 90px;
   width: auto;
 }
 
@@ -693,6 +704,10 @@ background-color: #1B1D28;
 
 .lmar{
   margin-left: 40px;
+}
+
+.rmar{
+  margin-left: -34px;
 }
 
 .lmarnav{
@@ -758,8 +773,12 @@ background-color: #1B1D28;
 
 .fsize{
   font-size: 20px;
-  margin-top: 30px;
+  margin-top: 13px;
   font-weight: 500;
+}
+
+.mtop{
+  margin-top: 0.8rem;
 }
 
 .padding-2{
