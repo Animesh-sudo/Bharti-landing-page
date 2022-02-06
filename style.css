@@ -53,6 +53,16 @@ body{
   padding: 7% 0% 10%;
 }
 
+.white-section {
+  background-color: #fff;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+.container-fluid1{
+  padding: 7% 15%;
+}
 
 h3{
   font-size: 1rem;
@@ -291,7 +301,7 @@ p{
 
 
 .toolkit-subtext{
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
 }
 
 .toolkit-text{
@@ -456,7 +466,7 @@ p{
 
 .bio-image{
   width: 100%;
-  border-radius: 23px 0 0 23px;
+  border-radius: 28px 0 0 28px;
   position: relative;
   right: 6px;
 }
@@ -750,6 +760,10 @@ background-color: #1B1D28;
   text-align: left;
 }
 
+.card, .card-header{
+  border-radius:1rem 1rem 1rem 1rem !important;
+}
+
 @media only screen and (max-device-width: 480px){
   .container-carousel{
     padding: 40px;
@@ -811,20 +825,24 @@ background-color: #1B1D28;
 }
 
 .padding-20{
-  padding-left: 125px;
-  padding-right: 30px;
+  padding-left: 101px;
+  padding-right: 2px;
 }
 
 .padding-lr{
-  padding-left: 76px;
-  padding-right: 76px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 
 
 .padding-30{
-  padding-right: 125px;
-  padding-left: 30px;
+  padding-right: 94px;
+  padding-left: 3px;
+}
+
+.psize{
+  font-size: 0.9rem;
 }
 
 @media only screen and (max-device-width: 480px){
@@ -897,10 +915,73 @@ background-color: #1B1D28;
     padding-left: 12%;
   }
   .hero-heading{
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
   .heading-subtext{
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+  h4{
+    font-size: 1.7rem;
+  }
+  .header-btn{
+    font-size: 2rem;
+  }
+  .header-btn1{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.3rem;
+  }
+  #introduction{
+    padding: 3% 0 18%;
+  }
+  .support-subheader{
+    font-size: 1.7rem;
+  }
+  .support-para{
+    width: 85%;
+    font-size: 2rem;
+  }
+ 
+  .fsize{
+    font-size: 2.5rem;
+  }
+
+  .psize{
+    font-size: 2rem;
+  }
+
+  .fs1rem{
+    font-size: 2rem;
+  }
+  .toolkit-text{
+    font-size: 2rem;
+  }
+  .syllabus-subtext{
+    font-size: 2rem;
+    width: 80%;
+  }
+  .course-text{
+    font-size: 2.5rem;
+  }
+
+  .calender-size{
+    margin-left: -8px;
+    height: 192px;
+  }
+  .calender-size2{
+    margin-left: -8px;
+    height: 192px;
+  }
+  .bonus-header{
+    width: 100%;
+    padding: 2%;
+  }
+  .bio-subheader{
+    font-size: 1.7rem;
+  }
+  .faq-header{
+    font-size: 2.5rem;
   }
 }
 
