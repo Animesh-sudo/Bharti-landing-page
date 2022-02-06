@@ -123,6 +123,16 @@ p{
   border-radius: 24px;
   padding-left: 4%;
   padding-right: 4%;
+  border-color:#FFDCF7;
+}
+.header-btn1 {
+  background-color: #FFDCF7;
+  color: #000000ba;
+  margin: auto;
+  margin-bottom: 1rem;
+  border-radius: 24px;
+  padding-left: 4%;
+  padding-right: 4%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   border-color:#FFDCF7;
