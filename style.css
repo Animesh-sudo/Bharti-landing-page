@@ -15,7 +15,7 @@ body{
 
 #chapter1
 {
-  padding: 3% 0 10%;;
+  padding: 3% 0 15%;;
   
 }
 
@@ -191,6 +191,10 @@ p{
 } */
 
 /*Support Section*/
+.support-video{
+  margin: auto;
+  width: 70%;
+}
 
 .support-section{
   margin-top: 12rem;
@@ -228,16 +232,19 @@ p{
   margin-top: 1.5rem;
 }
 
+.fw500{
+  font-weight: 500;
+}
 
 .support-row{
   text-align: left;
   margin-top: 4rem;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
 }
 
 .support-image{
+  height: auto;
   width: 100%;
 }
 
@@ -251,7 +258,7 @@ p{
 
 
 .toolkit-section{
-  width: 70%;
+  width: 100%;
   margin-top: 6rem;
   margin-left: auto;
   margin-right: auto;
@@ -273,7 +280,7 @@ p{
 .toolkit-text{
   padding-top: 0.5rem;
   text-align: left;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
 
 }
@@ -281,6 +288,10 @@ p{
 .tool-img{
   width: 100%;
   height: auto;
+}
+
+.fs1rem{
+  font-size: 1rem;
 }
 
 /*testimonial-section*/
@@ -600,7 +611,8 @@ background-color: #1B1D28;
 /* testinomials */
 .carousel-item{
   height: 32rem;
-  background: #000;
+  /* background: #000; */
+  background: yellow;
   color: white;
   position: relative;
 }
@@ -748,6 +760,33 @@ background-color: #1B1D28;
   font-size: 20px;
   margin-top: 30px;
   font-weight: 500;
+}
+
+.padding-2{
+  padding-left: 125px;
+  padding-right: 30px;
+}
+
+.padding-3{
+  padding-left: 30px;
+  padding-right: 125px;
+}
+
+.padding-20{
+  padding-left: 125px;
+  padding-right: 30px;
+}
+
+.padding-lr{
+  padding-left: 76px;
+  padding-right: 76px;
+}
+
+
+
+.padding-30{
+  padding-right: 125px;
+  padding-left: 30px;
 }
 
 @media only screen and (max-device-width: 480px){
