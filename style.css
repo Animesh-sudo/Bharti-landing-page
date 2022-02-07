@@ -856,6 +856,9 @@ background-color: #1B1D28;
 .summary-width{
   width: 60%;
 }
+.faq{
+  content: '';
+}
 
 @media only screen and (max-device-width: 480px){
   .course-snapshot{
@@ -965,7 +968,7 @@ background-color: #1B1D28;
     margin-bottom: 2.5rem;
   }
   #introduction{
-    padding: 3% 0 22%;
+    padding: 3% 0 27%;
   }
   .support-header{
     line-height: 70px;
@@ -1048,10 +1051,32 @@ background-color: #1B1D28;
     margin-top: 50px;
   }
   .faq-header{
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .summary-width{
     width: 100%;
+  }
+  .faq{
+    margin-top: 410px;
+    margin-bottom: 410px;
+  }
+  #summary{
+    padding: 40% 0% 30%;
+  }
+  #course-plan {
+    padding: 15% 0 30%;
+  }
+  #chapter2{
+    padding: 15% 0 7%;
+  }
+  #testimonials {
+    padding: 0 5% 25%;
+  }
+  .ord2{
+    order: 1;
+  }
+  .ord1{
+    order: 2;
   }
 }
 
