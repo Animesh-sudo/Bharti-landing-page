@@ -111,8 +111,10 @@ p{
 .heading-subtext{
   font-weight: 400;
   font-size: 1.1rem;
-  width: 70%;
+  width: 60%;
   margin: auto;
+  margin-bottom: 30px;
+
 
 }
 
@@ -242,6 +244,8 @@ p{
 .support-header{
   background-color: #FFDCF7;
   border-radius: 14px;
+  width: 70%;
+    margin: auto;
 }
 
 .support-subheader{
@@ -851,7 +855,7 @@ background-color: #1B1D28;
 
 @media only screen and (max-device-width: 480px){
   .course-snapshot{
-    width: 90%;
+    width: 60%;
     padding-top: 1.5rem;
     padding-bottom: 0rem;
   }
@@ -863,6 +867,10 @@ background-color: #1B1D28;
   .padding-2{
     padding-left: 125px;
     padding-right: 112px;
+  }
+
+  .p{
+    margin-bottom: 3rem;
   }
 
   .padding-3{
@@ -908,7 +916,7 @@ background-color: #1B1D28;
   }
 
   .toolkit-heading{
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .syllabus-section{
@@ -919,36 +927,58 @@ background-color: #1B1D28;
     padding-left: 12%;
   }
   .hero-heading{
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .heading-subtext{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    width: 90%;
+    line-height: 70px;
   }
+  .hero-video {
+    width: 88%;
+ }
+
   h4{
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
   .header-btn{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .header-btn1{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   p{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
   }
   #introduction{
     padding: 3% 0 22%;
   }
+  .support-header{
+    line-height: 70px;
+    width: 91%;
+  }
   .support-subheader{
-    font-size: 1.7rem;
+    font-size: 2rem;
+  }
+  .support-image {
+    height: auto;
+    width: 109%;
+    position: relative;
+    right: 28px;
   }
   .support-para{
     width: 85%;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    line-height: 70px;
+  }
+
+  .support-text{
+    width: 100%;
   }
  
   .fsize{
-    font-size: 2.5rem;
+    font-size: 2.6rem;
   }
 
   .psize{
@@ -990,7 +1020,7 @@ background-color: #1B1D28;
 }
 
 
-@media only screen and (max-width: 1155px){
+/* @media only screen and (max-width: 1155px) and (min-width: 500){
   .course-snapshot{
     width: 90%;
     padding-top: 1.5rem;
@@ -1128,5 +1158,5 @@ background-color: #1B1D28;
   .faq-header{
     font-size: 2.5rem;
   }
-}
+} */
 
