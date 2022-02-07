@@ -14,7 +14,7 @@ body{
 {
   background-color: #39C3EA;
   color: #FFF;
-  padding: 1% 0 11%;
+  padding: 7% 0 11%;
 }
 
 #chapter1
@@ -26,7 +26,7 @@ body{
 #chapter2
 {
   background-color: #4987B2;
-  padding: 3% 0 7%;
+  padding: 11% 0 7%;
   color: #FFF
 }
 
@@ -75,9 +75,11 @@ h3{
 h4{
   font-size: 1rem;
 }
-
+.mhero-bottom{
+  margin-bottom: 1.5rem;
+}
 p{
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -96,7 +98,7 @@ p{
 .overline{
   font-weight: 500;
   margin: auto;
-  margin-bottom: 2.5%;
+  margin-bottom: -32px;
   letter-spacing: 1.2px;
 }
 
@@ -109,12 +111,12 @@ p{
 }
 
 .marbottom{
-  margin-bottom: 2.4rem;
+  margin-bottom: 6rem;
 }
 
 .heading-subtext{
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   width: 60%;
   margin: auto;
   margin-bottom: 30px;
@@ -132,6 +134,7 @@ p{
 }
 
 .header-btn {
+  font-size: 1.5rem;
   background-color: #FFDCF7;
   color: #000000ba;
   margin: auto;
@@ -142,6 +145,7 @@ p{
   border-color:#FFDCF7;
 }
 .header-btn1 {
+  font-size: 1.5rem;
   background-color: #FFDCF7;
   color: #000000ba;
   margin: auto;
@@ -169,7 +173,9 @@ p{
 
 .snapshot-para{
   font-weight: 400;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
 }
 
 
@@ -210,11 +216,12 @@ p{
 }
 
 .support-para{
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   width:70%;
   margin:auto;
   margin-top: 1.5rem;
+  margin-bottom: 9rem;
 }
 
 .fw500{
@@ -263,10 +270,11 @@ p{
 }
 
 .toolkit-text{
+  margin-top: 20px;
   padding-top: 0.5rem;
   text-align: left;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 24px;
 
 }
 
@@ -276,7 +284,7 @@ p{
 }
 
 .fs1rem{
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .course-text{
   font-size: 20px;
@@ -317,7 +325,7 @@ p{
 /* Syllabus Section */
 
 .syllabus-section{
-  width: 60%;
+  width: 75%;
   margin-top: 10rem;
   margin-left: auto;
   margin-right: auto;
@@ -333,7 +341,7 @@ p{
 .syllabus-subtext{
   margin:auto;
   margin-bottom: 3rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   width: 60%;
 
@@ -383,7 +391,10 @@ p{
   height: 20vh;
   background-color: #F3F3F3;
   border-radius: 14px;
-  margin-left: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  /* margin-left: 2%;
+  margin-right: 6%; */
   color: #000000;
   text-align: center;
   justify-content: center;
@@ -402,11 +413,13 @@ p{
 .bonus-heading-box{
   padding-top: 1%;
   padding-bottom: 1%;
+  margin-bottom: 55px;
 }
 
 .bonus-header{
   width:60%;
   text-align: center;
+  font-size: 1.3rem;
 }
 
 /**Instructor Bio**/
@@ -419,7 +432,7 @@ p{
   background-image: linear-gradient(#FFFAE2, #D4EDFA);
   border-radius: 18px;
   color: #000000;
-  border: solid;
+  /* border: solid; */
   border-width: thin;
 }
 
@@ -437,6 +450,7 @@ p{
 
 .bio-lmar{
   margin-left: 20px;
+  font-size: 1.7rem;
 }
 
 .bio-subheader{
@@ -598,7 +612,7 @@ background-color: #1B1D28;
 }
 
 .course-header{
-  margin-top: 30px;
+  margin-top: 84px;
 }
 
 .calender-size2{
@@ -638,7 +652,7 @@ background-color: #1B1D28;
 }
 
 .lmar{
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .rmar{
@@ -742,13 +756,13 @@ background-color: #1B1D28;
 /* --------------------------------------- */
 
 .fsize{
-  font-size: 20px;
+  font-size: 24px;
   margin-top: 13px;
   font-weight: 500;
 }
 
 .mtop{
-  margin-top: 0.8rem;
+  margin-top: 0.2rem;
 }
 
 .padding-2{
@@ -779,7 +793,7 @@ background-color: #1B1D28;
 }
 
 .psize{
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .curve-border{

@@ -1,4 +1,7 @@
 /* @media only screen and (max-device-width: 480px){ */
+    .mhero-bottom{
+        margin-bottom: 1rem;
+    }
     .container-carousel{
       padding: 40px;
       padding-bottom: 127px;
@@ -54,6 +57,8 @@
     .bonus{
       width: 34vw;
       height: 12vh;
+      margin-right: 0;
+      margin-left: 2%;
     }
   
     .bonus-heading-box{
