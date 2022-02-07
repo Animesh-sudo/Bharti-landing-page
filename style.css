@@ -1,16 +1,20 @@
-
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+  }
 body{
   color: #000000;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  margin: auto;
+  margin: 0;
 }
 
 #introduction
 {
   background-color: #39C3EA;
   color: #FFF;
-  padding: 3% 0 11%;
+  padding: 1% 0 11%;
 }
 
 #chapter1
@@ -768,6 +772,40 @@ background-color: #1B1D28;
   border-radius:1rem 1rem 1rem 1rem !important;
 }
 
+/* navbar */
+.navbar
+{
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    padding-left: 30px;
+}
+.navbar-toggler{
+  padding-right: 30px;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size: 1.2 rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+/* #FF4C68; */
+#title{
+  background-color: orange;
+  color: #FFF;
+}  
+
 @media only screen and (max-device-width: 480px){
   .container-carousel{
     padding: 40px;
@@ -968,7 +1006,7 @@ background-color: #1B1D28;
     margin-bottom: 2.5rem;
   }
   #introduction{
-    padding: 3% 0 27%;
+    padding: 1% 0 27%;
   }
   .support-header{
     line-height: 70px;
@@ -1020,8 +1058,10 @@ background-color: #1B1D28;
     font-size: 2rem;
   }
   .syllabus-subtext{
-    font-size: 2rem;
-    width: 80%;
+      font-size: 2.5rem;
+      width: 80%;
+      min-width: -webkit-fill-available;
+      line-height: 70px;
   }
   .course-text{
     font-size: 2.5rem;
@@ -1077,6 +1117,9 @@ background-color: #1B1D28;
   }
   .ord1{
     order: 2;
+  }
+  .navbar-brand{
+    font-size: 2.7rem;
   }
 }
 
