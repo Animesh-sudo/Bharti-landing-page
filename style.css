@@ -9,14 +9,47 @@ body{
   font-family: 'Lato', sans-serif;
   margin: 0;
 }
-video{
-  object-fit: cover; /*to cover all the box*/
-}
-.video-player{
-  max-width: 750px;
+/* play button */
+.wrapper {
   position: relative;
-  overflow: hidden;
+  width: 100%;
+  display: inline-block;
 }
+
+.blurEffect {
+  -webkit-filter: blur(7px);
+  -o-filter: blur(7px);
+  -moz-filter: blur(7px);
+  -ms-filter: blur(7px);
+  filter: blur(7px);
+}
+
+.content {
+  position: absolute;
+  display: inline-block;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  color: #FFF;
+  width: 100%;
+  text-align: center;
+  z-index: 999;
+}
+
+.play {
+  font-size: 50px;
+  cursor: pointer;
+  border: 2px solid #FFF;
+  border-radius: 2rem;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 25px;
+}
+
+.play:hover {
+  color: red;
+}
+/* ---------------- */
 
 #introduction
 {
