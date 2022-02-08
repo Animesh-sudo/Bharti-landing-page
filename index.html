@@ -84,11 +84,11 @@
     <!-- <video class="hero-video curve-border" src="https://videodelivery.net/09e15e2697342c1a05648393567db225/downloads/default.mp4" muted controls>  -->
     <!-- </video></div> -->
     <div class="wrapper">
-      <video class="video curve-border shadow" style="width: 65%; justify-content: center;"> 
-          <source src="https://videodelivery.net/09e15e2697342c1a05648393567db225/downloads/default.mp4"  id="exampleVideo" type=video/mp4>
+      <video class="video curve-border shadow" style="width: 65%; justify-content: center;" id="exampleVideo" onclick="check()"> 
+          <source src="https://videodelivery.net/09e15e2697342c1a05648393567db225/downloads/default.mp4" type=video/mp4>
       </video>
-          <div class="content">
-              <div class="play">►</div>
+          <div class="content c1">
+              <div class="play" onclick="playvid()">►</div>
               <!-- <h1>Watch the movie</h1>
               <p>Other text. Other text. Other text. Other text. </p> -->
           </div>
@@ -135,11 +135,11 @@
     <div class="col-lg-6 padding-2">
       <!-- <video class="support-image curve-border shadow" src="assests/Videos/left.mp4" muted controls>  -->
         <div class="wrapper">
-          <video class="video support-image curve-border shadow"> 
+          <video class="video support-image curve-border shadow" id="video2" onclick="check2()"> 
               <source src="assests/Videos/left.mp4" type=video/mp4>
           </video>
-              <div class="content">
-                  <div class="play">►</div>
+              <div class="content c2">
+                  <div class="play" onclick="playvid2()">►</div>
                   <!-- <h1>Watch the movie</h1>
                   <p>Other text. Other text. Other text. Other text. </p> -->
               </div>
@@ -155,11 +155,11 @@
       <!-- <video class="support-image curve-border shadow" src="assests/Videos/right.mp4" muted controls>  -->
       <!-- </video> -->
       <div class="wrapper">
-        <video class="video support-image curve-border shadow"> 
+        <video class="video support-image curve-border shadow" id="video3" onclick="check3()"> 
             <source src="assests/Videos/right.mp4" type=video/mp4>
         </video>
-            <div class="content">
-                <div class="play">►</div>
+            <div class="content c3">
+                <div class="play" onclick="playvid3()">►</div>
                 <!-- <h1>Watch the movie</h1>
                 <p>Other text. Other text. Other text. Other text. </p> -->
             </div>
@@ -537,43 +537,8 @@
 
   <script src="index.js" charset="utf-8"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-  <script>
-  //   $(document).ready(function(){
-  //   $('.play').click(function () {
-  //       if($(this).parent().prev().get(0).paused){
-  //           $(this).parent().prev().get(0).play();
-  //           $(this).parent().prev().removeClass('blurEffect');
-  //           $('.content').hide();
-  //       } 
-  //   });
-
-  //   $('.video').on('ended',function(){
-  //       $(this).addClass('blurEffect');
-  //     $('.content').show();
-  //   });
-  // })
-  // $(document).ready(function(){
-  //   $('.video1'.click(function(){
-  //     this.paused ? this.play() : this.pause();
-  //   }))
-
-  // })
-
-    var myVideo = document.getElementById('exampleVideo');
-    var play1 = myVideo.last();
-    console.log(play1);
-
-            $(play1).click(function toggleVideoState() {
-                if (myVideo.paused) {
-                  myVideo.play();
-                  console.log('Video Playing');
-                } else {
-                  myVideo.pause();
-                  console.log('Video Paused');
-                }
-              });
-  </script>
+  <script src="script.js"></script>
+  
 <!-- ------------------------------------------------------------------------------------------------------------------------------ -->
 </body>
 
