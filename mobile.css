@@ -1,17 +1,20 @@
 /* @media only screen and (max-device-width: 480px){ */
-    .mhero-bottom{
-        margin-bottom: 1rem;
+    .mhero-bottom {
+    margin-bottom: 3rem;
     }
     .container-carousel{
       padding: 40px;
       padding-bottom: 127px;
     }
     .course-snapshot{
-      width: 60%;
+      width: 65%;
       padding-top: 1.5rem;
       padding-bottom: 0rem;
     }
-  
+    
+    .snapshot-para{
+      font-size: 1.8rem;
+    }
     #bonus{
       padding: 15% 0 28%;
     }
@@ -110,6 +113,8 @@
     }
     .hero-heading{
       font-size: 5rem;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     .heading-subtext{
       font-size: 2.5rem;
@@ -134,7 +139,7 @@
       margin-bottom: 2.5rem;
     }
     #introduction{
-      padding: 1% 0 27%;
+      padding: 15% 0 27%;
     }
     .support-header{
       line-height: 70px;
@@ -228,6 +233,7 @@
     }
     .bio-copy{
       margin-top: 50px;
+      min-width: 830px;
     }
     .faq-header{
       font-size: 3rem;
