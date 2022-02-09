@@ -167,7 +167,12 @@
     .pm2{
       position: relative;
       left: 368px;
-      width:60%;
+    }
+    .card-summ{
+      width: 100%;
+    }
+    .s-text{
+      font-size: 2.5rem !important;
     }
 
     .header-btn{
