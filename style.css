@@ -326,6 +326,7 @@ p{
   text-align: left;
   font-weight: 500;
   font-size: 24px;
+  margin-bottom: 8px;
 
 }
 
@@ -810,6 +811,7 @@ background-color: #1B1D28;
   text-align: left;
   font-weight: 500;
   font-size: 1.2rem;
+  line-height: 1.35;
 }
 
 .mw{
