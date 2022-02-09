@@ -15,7 +15,7 @@
     }
     
     .snapshot-para{
-      font-size: 2.3rem;
+      font-size: 2.2rem;
       margin-bottom: 24px;
     }
 
@@ -96,7 +96,15 @@
     .bio-subheader{
       padding-top: 5%;
     }
-  
+    .mbtop{
+      margin-top: 36px;
+    }
+
+    .t-text{
+      font-size: 2rem;
+      line-height: 1.35;
+    }
+
     .pd{
       margin-top: 3%;
     }
@@ -107,7 +115,7 @@
   
     .toolkit-heading{
       font-size: 3rem;
-      line-height: 70px;
+      line-height: 1.35;
     }
   
     .syllabus-section{
@@ -115,7 +123,7 @@
       margin-left: 80px;
     }
     .overline{
-      margin-bottom: 36px;
+      margin-bottom: 36px !important;
     }
 
     .container{
@@ -164,7 +172,7 @@
       font-size: 2.5rem;
     }
     p{
-      font-size: 2.8rem;
+      font-size: 2.5rem;
       margin-bottom: 2.5rem;
     }
     #introduction{
@@ -173,6 +181,7 @@
     .support-header{
       line-height: 70px;
       width: 91%;
+      margin-bottom: 36px;
     }
     .support-subheader{
       font-size: 2rem;
@@ -186,7 +195,7 @@
     .support-para{
       width: 85%;
       font-size: 2.5rem;
-      line-height: 70px;
+      line-height: 1.35;
     }
     
     .ml{
@@ -207,26 +216,28 @@
       font-size: 3rem;
       min-width: 900px;
       margin-left: -61px;
+      margin-bottom: 16px;
   
     }
   
     .psize{
-      font-size: 2.5rem;
-      min-width: 863px;
+      font-size: 2.3rem;
+      min-width: 801px;
       margin-left: -59px;
-      line-height: 70px;
+      line-height: 1.35;
     }
   
     .fs1rem{
-      font-size: 2.3rem;
-      line-height: 70px;
+      font-size: 2.5rem;
+      line-height: 1.35;
     }
   
     .bonus-heading{
       width: 97%;
     }
     .toolkit-text{
-      font-size: 2rem;
+      font-size: 2.2rem;
+      line-height: 1.35;
     }
     .syllabus-subtext{
         font-size: 2.5rem;
@@ -279,6 +290,9 @@
     }
     #course-plan {
       padding: 15% 0 30%;
+    }
+    #chapter1{
+      padding: 10% 0 17%;
     }
     #chapter2{
       padding: 15% 0 7%;
