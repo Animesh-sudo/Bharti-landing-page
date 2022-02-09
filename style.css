@@ -145,10 +145,11 @@ p{
   margin: auto;
   margin-bottom: -32px;
   letter-spacing: 1.2px;
+  margin-bottom: -8.5px;
 }
 
 .hero-heading{
-  padding-bottom: 1rem;
+  padding-bottom: -4rem;
   font-size: 2.7rem;;
   font-weight: 500;
   letter-spacing: 1px;
@@ -179,7 +180,7 @@ p{
 }
 
 .header-btn {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   background-color: #FFDCF7;
   color: #000000ba;
   margin: auto;
