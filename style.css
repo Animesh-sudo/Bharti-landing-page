@@ -156,6 +156,10 @@ p{
 
 }
 
+.vid-bottom{
+  font-weight: 600 !important;
+}
+
 .marbottom{
   margin-bottom: 6rem;
 }
