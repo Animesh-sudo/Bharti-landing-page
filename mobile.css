@@ -1,6 +1,6 @@
 /* @media only screen and (max-device-width: 480px){ */
     .mhero-bottom {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     }
     .container-carousel{
       padding: 40px;
@@ -10,11 +10,16 @@
       width: 65%;
       padding-top: 1.5rem;
       padding-bottom: 0rem;
+      width: 86%;
+      margin-top: 72px;
     }
     
     .snapshot-para{
-      font-size: 1.8rem;
+      font-size: 2rem;
+      margin-bottom: 24px;
     }
+
+
     #bonus{
       padding: 15% 0 28%;
     }
@@ -129,6 +134,14 @@
     .hero-video {
       width: 88%;
    }
+
+   .wmt{
+     padding-top: 44px;
+   }
+
+   .wmb{
+     padding-bottom: 16px;
+   }
   
     h4{
       font-size: 2rem;
@@ -145,7 +158,7 @@
       font-size: 2.5rem;
     }
     p{
-      font-size: 1.7rem;
+      font-size: 2.2rem;
       margin-bottom: 2.5rem;
     }
     #introduction{
